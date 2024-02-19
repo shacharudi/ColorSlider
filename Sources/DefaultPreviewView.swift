@@ -112,8 +112,8 @@ public class DefaultPreviewView: UIView {
 		
 		// Borders
 		colorView.clipsToBounds = true
-		colorView.layer.borderWidth = 1.0
-		colorView.layer.borderColor = UIColor.black.withAlphaComponent(0.1).cgColor
+        colorView.layer.borderWidth = 4.0
+        colorView.layer.borderColor = UIColor.white.cgColor
 		addSubview(colorView)
 		
 		calculateOffset()
